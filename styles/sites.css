@@ -1,0 +1,171 @@
+/***************************************************************************
+   Police
+***************************************************************************/
+.valeraRoundFont {
+    font-family: 'Varela Round', sans-serif;
+}
+/***************************************************************************
+   Formatage général
+***************************************************************************/
+.darkCyan {
+    color: darkcyan;
+}
+.justify {
+    text-align: justify;
+}
+/***************************************************************************
+   Mise en page des sections
+***************************************************************************/
+body {
+    background-color: gray;
+}
+.main {
+    margin: auto;
+    width: 1000px;
+    background-size: cover;
+    background-color: rgb(230, 230, 230);
+}
+.header {
+    width: 100%;
+    height: 305px;
+    display: grid;
+    grid-template-columns: 62% 38%;
+}
+.headerLeft {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 12px auto;
+}
+.headerRigth {
+    margin-top:22px;
+    display: grid;
+    grid-template-columns:auto 14px;
+}
+.leftContent {
+    border-right:3px solid darkcyan;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+.rigthContent {
+    padding-left: 26px;
+    padding-right: 26px;
+    text-align: left;
+}
+/***************************************************************************
+   Formatage d'éléments
+***************************************************************************/
+.markerLeft {
+    margin-left:-2px;
+    margin-top:33px;
+    height: 262px;
+    width:14px;
+    background-color: darkcyan;
+}
+.markerRigth {
+    margin-top: 63px;
+    height: 162px;
+    background-color: rgb(65, 65, 65);
+}
+.name {
+    font-size: 55px;
+    font-weight:900;
+    font-stretch: semi-condensed;
+    margin-left: 8px;
+    margin-top: 20px;
+}
+.coordContainer {
+    margin-top: 38px;
+    margin-left: 12px;
+}
+.coord {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 45px auto;
+    margin-bottom: 5px;
+}
+.coordText {
+    font-size: 20px;
+    padding-top: 6px;
+    padding-left: 8px;
+}
+.jobTitleContainer {
+    background-color: darkcyan;
+    border-radius: 8px;
+    margin:auto;
+    padding-top: 6px;
+    text-align: center;
+    color:white;
+    height:36px;
+    width: 450px;
+    font-size: 26px;
+}
+.titleContainer {
+    background-color: rgb(85, 85, 85);
+    border-radius:6px;
+    padding-top: 2px;
+    text-align: left;
+    padding-left:12px;
+    color:white;
+    height:32px;
+    max-width:500px;
+    font-size: 24px;
+}
+.subTitle {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.text {
+    font-size: 18px;
+    line-height: 135%; 
+}
+.contentContainer {
+    display: grid;
+    grid-template-columns:32% auto;
+}
+.aboutMe {
+    font-size: 24px;
+    font-weight: bolder;
+    color:rgb(85, 85, 85);
+}
+.aboutText{
+    font-size: 18px;
+}
+/***************************************************************************
+   Icônes et images
+***************************************************************************/
+.icon {
+    height: 34px;
+    width:34px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-color: white;
+}
+.iconPhone {
+    background-image: url("../images/phone.png");
+}
+.iconMail {
+    background-image: url("../images/mail.png");
+}
+.iconLocation {
+    background-image: url("../images/location.png");
+}
+.iconLinkedin {
+    background-image: url("../images/linkedin.png");
+}
+.avatar {
+    background-image: url("../images/avatar.png");
+    height:245px;
+    width:245px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 260px;
+}
+.avatarFrame {
+    height:245px;
+    width:245px;
+    padding:10px;
+    border-radius: 260px;
+    border:13px solid darkcyan;
+
+}
